@@ -11,9 +11,9 @@ public class MozillaTest {
 		WebDriver driver = new FirefoxDriver();
 		driver.get("https://easy.techmahindra.com/ ");
 		String s = driver.getTitle();
-
 		System.out.println(s);
 		driver.quit();
+		// commint by anu
 	}
 
 }
